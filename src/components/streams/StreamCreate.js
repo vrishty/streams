@@ -6,8 +6,6 @@ import { createStream } from '../../actions';
 class StreamCreate extends React.Component {
     onSubmit = formValues => {
         this.props.createStream(formValues);
-        //No need to call preventDefault as Redux handleSubmit takes care of it internally
-        //event.preventDefault();
     };
     render() {
         return (

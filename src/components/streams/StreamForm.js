@@ -11,12 +11,6 @@ class StreamForm extends React.Component {
             );
         }
     }
-    /* renderInput(formProps) {
-        //return <input onChange={formProps.input.onChange} value={formProps.input.value} />;
-        //alternate way of writing above code
-        return <input {...formProps.input} />
-    } */
-    //above method can be destructured like below
     renderInput = ({ input, label, meta }) => {
         const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
         return (

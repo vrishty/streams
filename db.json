@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "Stream New",
+      "description": "this is a  big stream",
+      "id": 1
+    },
+    {
+      "title": "Hi there",
+      "description": "This is the second stream",
+      "id": 2
+    },
+    {
+      "title": "First stream",
+      "description": "This is my first stream!",
+      "id": 3
+    },
+    {
+      "title": "Stream 4",
+      "description": "This was created by me-Vrishty!",
+      "userId": "104005907521988603497",
+      "id": 4
+    },
+    {
+      "title": "Component Refactor",
+      "description": "This is some refactoring in action!",
+      "id": 7
+    },
+    {
+      "title": "React course",
+      "description": "Interesting stream!",
+      "userId": "104005907521988603497",
+      "id": 8
+    }
+  ]
+}
